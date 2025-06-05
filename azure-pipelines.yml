@@ -10,7 +10,7 @@ stages:
     - task: Kubernetes@1
       inputs:
         connectionType: 'Kubernetes Service Connection'
-        #azureSubscription: 'k8sconnection'
+        #azureSubscription: 'k8's-connection'
         kubernetesServiceEndpoint: 'k8's-connection'
         azureResourceGroup: 'jh-project'
         kubernetesCluster: 'jh-cluster'
